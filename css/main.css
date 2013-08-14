@@ -1,0 +1,48 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: monospace;
+}
+.diamond-l {
+  display: block;
+  margin: 200px auto;
+  width: 200px;
+  height: 200px;
+  height: 240px;
+  padding: 20px 0;
+  position: relative;
+}
+.precious-canvas-e {
+  cursor: pointer;
+  float: left;
+}
+.precious-canvas-e:hover ~ div {
+  display: none;
+}
+.font-holder-e {
+  font-family: 'BoB';
+}
+.top-e,
+.bottom-e {
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  width: 100%;
+  font-weight: bold;
+  font-size: 20px;
+}
+.top-e {
+  top: 0;
+}
+.bottom-e {
+  bottom: 0;
+}

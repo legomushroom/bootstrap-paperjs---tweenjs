@@ -1,0 +1,47 @@
+@import 'mixins.styl'
+
+*
+	bbox()
+
+body, html
+	rect 100%
+	margin 0
+	padding 0
+	overflow hidden
+	font-family monospace
+
+.diamond-l
+	display block
+	margin 200px auto
+	rect 200px
+	height 240px
+	padding 20px 0
+	position relative
+
+.precious-canvas-e
+	cursor pointer
+	float left
+
+	&:hover ~ div
+		display none
+
+.font-holder-e
+	font-family: 'BoB'
+
+
+.top-e, .bottom-e
+	text-align center
+	text-decoration none
+	position absolute
+	width:  100%
+	font-weight bold
+	font-size 20px
+
+.top-e
+	top 0
+
+.bottom-e
+	bottom 0
+
+
+
