@@ -11,7 +11,7 @@ App.dev =
 
 
 class Main
-	tool: 'block'
+	tool: 'path'
 	constructor:->
 		$('body').css 'min-width': App.gWidth
 		$('body').css 'max-width': App.gWidth

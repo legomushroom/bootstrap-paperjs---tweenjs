@@ -17,7 +17,7 @@ App.dev = {
 };
 
 Main = (function() {
-  Main.prototype.tool = 'block';
+  Main.prototype.tool = 'path';
 
   function Main() {
     $('body').css({
